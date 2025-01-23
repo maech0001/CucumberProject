@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         glue= "steps",
         dryRun= false,
         plugin={"pretty", "html:target/cucumber.html"},
-        tags = "@withoutEmployeeID"
+        tags = "@withoutEmployeeID or @withEmployeeID"
 
 )
 
