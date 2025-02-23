@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Hooks extends CommonMethods {
 
-    @Before
+    @Before()
     public void start() throws IOException {
         openBrowserAndLaunchApplication();
     }
